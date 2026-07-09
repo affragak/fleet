@@ -5,8 +5,8 @@ metadata:
   namespace: forgejo
 spec:
   ports:
-    - name: http
-      port: 3000
+  - name: http
+    port: 3000
   selector:
     app: forgejo
   type: ClusterIP

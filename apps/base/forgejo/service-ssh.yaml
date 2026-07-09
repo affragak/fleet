@@ -5,9 +5,9 @@ metadata:
   namespace: forgejo
 spec:
   ports:
-    - name: ssh
-      port: 2222
-      targetPort: 2222
+  - name: ssh
+    port: 2222
+    targetPort: 2222
   selector:
     app: forgejo
   type: LoadBalancer

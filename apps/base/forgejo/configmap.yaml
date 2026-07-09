@@ -4,7 +4,7 @@ data:
   FORGEJO__actions__ENABLED: "true"
   FORGEJO__attachment__PATH: /data/app/attachments
   FORGEJO__database__DB_TYPE: postgres
-  FORGEJO__database__HOST: forgejo-db-v1-rw:5432
+  FORGEJO__database__HOST: forgejo-db-rw:5432
   FORGEJO__database__NAME: forgejodb
   FORGEJO__database__SSL_MODE: disable
   FORGEJO__lfs__PATH: /data/lfs
@@ -23,8 +23,6 @@ data:
   FORGEJO__server__SSH_LISTEN_PORT: "2222"
   FORGEJO__server__SSH_PORT: "2222"
   FORGEJO__session__PROVIDER_CONFIG: /data/app/sessions
-  FORGEJO__migrations__ALLOW_LOCALNETWORKS: "true"
-  FORGEJO__migrations__ALLOWED_DOMAINS: "github.com,*.github.com"
 kind: ConfigMap
 metadata:
   name: forgejo-config

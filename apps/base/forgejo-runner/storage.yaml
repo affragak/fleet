@@ -5,7 +5,7 @@ metadata:
   namespace: forgejo-runner
 spec:
   accessModes:
-    - ReadWriteOnce
+  - ReadWriteMany
   resources:
     requests:
-      storage: 2Gi
+      storage: 10Gi
